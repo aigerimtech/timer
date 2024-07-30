@@ -1,0 +1,56 @@
+html,body{
+    height: 100%; /* Ensure the body and html element fill the viewport */
+    margin: 0;
+    display: flex;
+    justify-content: center; /*horizontally */
+    align-items: center; /* vertically */
+    background-color: rgb(182, 99, 191); 
+}
+.stopwatch{
+    width:100%;
+}
+
+.container {
+    width: 900px;
+    height:500px;
+    border-radius: 5px;
+    background-color: #fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    top:50%;
+    left:50%;
+}
+
+.time{
+    background-color:rgb(40, 127, 156) ;
+    width:500px;
+    height:200px;
+    border-radius:15px;
+    color:black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.interval{
+    margin-top: 10px;
+}
+
+.buttons{
+    justify-content: space-between;
+    display: flex;
+}
+.btn{
+    margin-top:90px;
+    margin-left:30px;
+    width:120px;
+    height:50px;
+    background-color:rgb(100, 40, 156) ;
+    color:#fff;
+    border-radius:10px;
+}
